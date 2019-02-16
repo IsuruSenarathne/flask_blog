@@ -27,11 +27,6 @@ def home():
     return render_template("home.html", posts=posts)
 
 
-@app.route('/test')
-def test():
-    return render_template("testBoot.html")
-
-
 @app.route('/about')
 def about():
     return render_template("about.html")

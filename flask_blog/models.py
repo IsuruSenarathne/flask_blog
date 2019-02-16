@@ -19,7 +19,7 @@ class User(db.Model, UserMixin): # by inherinting required methods will come to 
     id = db.Column(db.Integer, primary_key=True)
     username  = db.Column(db.String(20), unique=True, nullable=False) 
     email  = db.Column(db.String(120), unique=True, nullable=False) 
-    image_file = db.Column(db.String(20), unique=False, nullable=False, default=f'default.jpg')
+    image_file = db.Column(db.String(20), unique=False, nullable=False, default='default.jpg')
     password = db.Column(db.String(60), nullable=False)
     posts = db.relationship('Post', backref='author', lazy=True) # setting 1-m relationship, here post is all lowercase as Post moodel(Post Class) creates a table as post(lowercase) automatically, so we need to refer that post table, not Post model.
 
