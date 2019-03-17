@@ -11,7 +11,6 @@ def validate_field():
         
 """
 
-
 class RegistrationForm(FlaskForm):
     username = StringField("Username", validators=[DataRequired(), Length(min=2, max=50)])
     password = PasswordField("Password", validators=[DataRequired()])
@@ -34,3 +33,19 @@ class LoginForm(FlaskForm):
     password = PasswordField("Password", validators=[DataRequired()])
     remember = BooleanField("Remember me")
     submit = SubmitField("Login")
+
+
+class UpdateAccoutForm(FlaskForm):
+    username = StringField("Username", validators=[DataRequired(), Length(min=2, max=50)])
+    email = StringField("Email", validators=[DataRequired(), Email()])
+    submit = SubmitField("Update")
+
+    def validate_username(self, username):
+        user = User.query.filter_by(username=username.data).first()
+        if user:
+            raise ValidationError('Username is taken, please give another name')
+
+    def validate_email(self, email):
+        email = User.query.filter_by(email=email.data).first()
+        if email:
+            raise ValidationError('Email is taken, please give another email')
