@@ -40,7 +40,7 @@ class LoginForm(FlaskForm):
 class UpdateAccoutForm(FlaskForm):
     username = StringField("Username", validators=[DataRequired(), Length(min=2, max=50)])
     email = StringField("Email", validators=[DataRequired(), Email()])
-    submit = SubmitField("Update")
+    picture = FileField('Update Profile Picture')
 
     def validate_username(self, username):
         if username.data != current_user.username:
