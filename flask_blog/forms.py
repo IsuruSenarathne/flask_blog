@@ -40,7 +40,7 @@ class LoginForm(FlaskForm):
 class UpdateAccoutForm(FlaskForm):
     username = StringField("Username", validators=[DataRequired(), Length(min=2, max=50)])
     email = StringField("Email", validators=[DataRequired(), Email()])
-    picture = FileField('Update Profile Picture') # como
+    picture = FileField('Update Profile Picture') # como new com 
     submit = SubmitField("Update")
 
     def validate_username(self, username):
