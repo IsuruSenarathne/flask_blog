@@ -1,5 +1,5 @@
 from flask import render_template, url_for, flash, redirect, request
-from flask_blog.forms import RegistrationForm, LoginForm, UpdateAccoutForm
+from flask_blog.forms import RegistrationForm, LoginForm, UpdateAccountForm
 from flask_blog.models import User, Post
 from flask_blog import app, bcrypt, db
 from flask_login import login_user, current_user, logout_user, login_required
@@ -73,7 +73,7 @@ def logout():
 @app.route('/account', methods=['GET', 'POST'])
 @login_required # chceck whether user is authenticated
 def account():
-    form = UpdateAccoutForm()
+    form = UpdateAccountForm()
     if form.validate_on_submit():
         current_user.username = form.username.data
         current_user.email = form.email.data
