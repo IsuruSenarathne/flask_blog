@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fc18e192-120e-4857-acb1-29a7a7371de6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_blog/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask_blog/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_blog/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask_blog/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/flask_blog/site.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_blog/templates/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_blog/templates/account.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,10 +35,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flask_blog/routes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="1411">
+              <caret line="87" column="27" lean-forward="true" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
               <folding>
                 <element signature="e#0#68#0" expanded="true" />
+                <marker date="1553103451219" expanded="true" signature="2900:3015" ph="..." />
               </folding>
             </state>
           </provider>
@@ -288,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553100473575</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="profile pic feature - updating done">
+      <created>1553103161573</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553103161573</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -302,6 +308,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5010571" side_tool="true" weight="0.2247191" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49763033" visible="true" weight="0.16920027" />
@@ -339,7 +346,8 @@
     <MESSAGE value="developing account layout" />
     <MESSAGE value="account update done" />
     <MESSAGE value="profile pic feature - init" />
-    <option name="LAST_COMMIT_MESSAGE" value="profile pic feature - init" />
+    <MESSAGE value="profile pic feature - updating done" />
+    <option name="LAST_COMMIT_MESSAGE" value="profile pic feature - updating done" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -578,10 +586,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flask_blog/routes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="1411">
+          <caret line="87" column="27" lean-forward="true" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
           <folding>
             <element signature="e#0#68#0" expanded="true" />
+            <marker date="1553103451219" expanded="true" signature="2900:3015" ph="..." />
           </folding>
         </state>
       </provider>
