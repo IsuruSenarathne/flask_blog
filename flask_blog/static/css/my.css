@@ -7,3 +7,14 @@ mid-text {
   background: #fafafa;
   color: red;
 }
+
+
+.author-img {
+  height: 70px;
+  width: 70px;
+  margin: 15px;
+}
+
+.post-content {
+    margin: 10px;
+}

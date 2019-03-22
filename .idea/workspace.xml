@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc18e192-120e-4857-acb1-29a7a7371de6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/flask_blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_blog/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_blog/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_blog/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_blog/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/flask_blog/site.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_blog/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/flask_blog/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_blog/static/css/my.css" beforeDir="false" afterPath="$PROJECT_DIR$/flask_blog/static/css/my.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask_blog/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_blog/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_blog/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_blog/templates/layout.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flask_blog/templates/create_post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="522">
               <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
             </state>
           </provider>
@@ -59,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flask_blog/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-299">
+            <state relative-caret-position="-198">
               <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
             </state>
           </provider>
@@ -68,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flask_blog/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
+            <state relative-caret-position="684">
               <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
@@ -80,8 +77,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flask_blog/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+            <state relative-caret-position="306">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flask_blog/static/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-549">
+              <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flask_blog/static/css/my.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -89,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flask_blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="30" column="48" lean-forward="true" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+            <state relative-caret-position="204">
+              <caret line="21" column="14" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="14" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -122,8 +137,6 @@
         <option value="$PROJECT_DIR$/flask_blog/__init__.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/flask_blog/static/css/account.css" />
-        <option value="$PROJECT_DIR$/flask_blog/static/css/main.css" />
-        <option value="$PROJECT_DIR$/flask_blog/static/css/my.css" />
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/flask_blog/templates/account.html" />
         <option value="$PROJECT_DIR$/flask_blog/forms.py" />
@@ -131,6 +144,8 @@
         <option value="$PROJECT_DIR$/flask_blog/templates/layout.html" />
         <option value="$PROJECT_DIR$/flask_blog/models.py" />
         <option value="$PROJECT_DIR$/flask_blog/routes.py" />
+        <option value="$PROJECT_DIR$/flask_blog/static/css/main.css" />
+        <option value="$PROJECT_DIR$/flask_blog/static/css/my.css" />
         <option value="$PROJECT_DIR$/flask_blog/templates/home.html" />
       </list>
     </option>
@@ -324,7 +339,7 @@
       <window_info id="Favorites" order="0" sideWeight="0.5010571" side_tool="true" weight="0.2247191" />
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49763033" visible="true" weight="0.23463318" />
       <window_info id="Structure" order="2" sideWeight="0.5010571" side_tool="true" weight="0.2247191" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.26487252" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.21246459" />
       <window_info anchor="bottom" auto_hide="true" id="Event Log" order="1" sideWeight="0.50033045" side_tool="true" weight="0.40084985" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -530,60 +545,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flask_blog/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flask_blog/static/css/account.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_blog/static/css/my.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_blog/templates/account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-430">
-          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_blog/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="43" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_blog/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-299">
-          <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="30" column="48" lean-forward="true" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_blog/templates/create_post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flask_blog/routes.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -597,7 +560,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flask_blog/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
+        <state relative-caret-position="684">
           <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
@@ -605,10 +568,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flask_blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_blog/templates/account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-430">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_blog/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_blog/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="43" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_blog/templates/create_post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_blog/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-549">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_blog/static/css/my.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/flask_blog/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        <state relative-caret-position="306">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
         </state>
       </provider>
     </entry>
