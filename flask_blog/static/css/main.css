@@ -3,7 +3,7 @@
 body {
   background: #ffffff;
   color: #333333;
-  margin-top: 5rem;
+  margin-top: 90px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,12 +35,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .article-title {
-  color: #444444;
+    color: #444444;
+    margin: 10px;
+    position: relative;
+    top: 25px;
 }
 
 a.article-title:hover {
   color: #428bca;
   text-decoration: none;
+  al
 }
 
 .article-content {
@@ -84,3 +88,4 @@ a.article-title:hover {
 .head1 {
     color:#333;
 }
+

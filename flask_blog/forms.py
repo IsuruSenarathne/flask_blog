@@ -1,7 +1,7 @@
 from flask_wtf import FlaskForm
 from flask_wtf.file import FileField, FileAllowed
 from flask_login import current_user
-from wtforms import StringField, PasswordField, SubmitField, BooleanField
+from wtforms import StringField, PasswordField, SubmitField, BooleanField, TextAreaField
 from wtforms.validators import DataRequired, Length, Email, EqualTo, ValidationError
 from flask_blog.models import User
 """
@@ -12,6 +12,7 @@ def validate_field():
         raise ValidationError('validation message')
         
 """
+
 
 class RegistrationForm(FlaskForm):
     username = StringField("Username", validators=[DataRequired(), Length(min=2, max=50)])
@@ -30,6 +31,7 @@ class RegistrationForm(FlaskForm):
         if email:
             raise ValidationError('Email is taken, please give another email')
 
+
 class LoginForm(FlaskForm):
     email = StringField("Email", validators=[DataRequired(), Email()])
     password = PasswordField("Password", validators=[DataRequired()])
@@ -40,11 +42,7 @@ class LoginForm(FlaskForm):
 class UpdateAccountForm(FlaskForm):
     username = StringField("Username", validators=[DataRequired(), Length(min=2, max=50)])
     email = StringField("Email", validators=[DataRequired(), Email()])
-<<<<<<< HEAD
-    picture = FileField('Update Profile Picture') # como new com 
-=======
     picture = FileField("Upload your profile picture", validators=[FileAllowed(['jpg', 'png'])])
->>>>>>> feature_profpic_update
     submit = SubmitField("Update")
 
     def validate_username(self, username):
@@ -58,3 +56,9 @@ class UpdateAccountForm(FlaskForm):
             email = User.query.filter_by(email=email.data).first()
             if email:
                 raise ValidationError('Email is taken, please give another email')
+
+
+class PostForm(FlaskForm):
+    title = StringField('Title', validators=[DataRequired()])
+    content = TextAreaField('Content', validators=[DataRequired()])
+    submit = SubmitField('Post')

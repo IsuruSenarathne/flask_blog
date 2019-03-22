@@ -7,3 +7,26 @@ mid-text {
   background: #fafafa;
   color: red;
 }
+
+
+.author-img {
+  height: 70px;
+  width: 70px;
+  margin: 15px;
+}
+
+.post-content {
+    margin: 10px;
+}
+
+.my-bar {
+    background-color:#4a148c;
+}
+
+.list-group-item {
+    color: #cfd8dc;
+}
+
+.update-btn {
+    margin: 8px
+}
