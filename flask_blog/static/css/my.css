@@ -18,3 +18,11 @@ mid-text {
 .post-content {
     margin: 10px;
 }
+
+.my-bar {
+    background-color:#4a148c;
+}
+
+.list-group-item {
+    color: #cfd8dc;
+}
