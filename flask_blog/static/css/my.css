@@ -26,3 +26,7 @@ mid-text {
 .list-group-item {
     color: #cfd8dc;
 }
+
+.update-btn {
+    margin: 8px
+}
